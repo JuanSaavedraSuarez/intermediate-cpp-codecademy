@@ -15,5 +15,12 @@ int main() {
     }
     Character* characterPtr = new Warrior("Loise", 300, 30);
     Warrior* warriorPtr = dynamic_cast<Warrior*>(characters[0]);
+
+    delete characterPtr;
+    delete warriorPtr;
+
+    for (Character* ch : characters) {
+        delete ch;
+    }
     return 0;
 }

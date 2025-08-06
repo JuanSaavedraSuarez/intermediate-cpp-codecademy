@@ -14,7 +14,7 @@ void Character::attack() {
 void Character::displayInfo() {
     cout << "Name: " << name 
         << ", Health: " << health
-        << ", Power: " << power 
+        << ", Power: " << power
         << endl;
     return;
 }

@@ -5,9 +5,9 @@
 
 class Warrior : public Character {
 public:
-    Warrior(string warriorName, int warriorHealth, int warriorPower);
-    void attack() override;
-    void specialAttack();
+  Warrior(string warriorName, int warriorHealth, int warriorPower);
+  void attack() override;
+  void specialAttack();
 };
 
 #endif 

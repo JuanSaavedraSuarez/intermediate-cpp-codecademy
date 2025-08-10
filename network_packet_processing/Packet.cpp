@@ -87,6 +87,7 @@ void Packet::displayInfo() {
   cout << "Packet Type: " << getPacketTypeName() << endl;
   cout << "Protocol Type: " << getProtocolName() << endl;
   cout << "Status Name: " << getStatusName() << endl;
+  cout << endl;
   return;
 }
 

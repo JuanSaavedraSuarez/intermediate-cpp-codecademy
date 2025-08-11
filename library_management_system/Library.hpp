@@ -16,7 +16,7 @@ public:
     void addBook(string title, double bookCost);
     bool borrowBook(string title);
     void listBooks();
-    int getTotalBorrowedBooks();
+    int getTotalBorrowedBooks() const;
     void reserveBook(string title) const;
     Library();
 };

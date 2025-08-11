@@ -10,8 +10,8 @@ private:
   int age;
 
 public:
-  inline string getName() { return name; }
-  inline int getAge() { return age; }
+  inline string getName() const { return name; }
+  inline int getAge() const { return age; }
   void setName(string newName);
   void setAge(int newAge);
   void eat();

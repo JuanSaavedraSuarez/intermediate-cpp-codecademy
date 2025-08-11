@@ -18,16 +18,16 @@ namespace Marketing {
       , teamBudget { (double)budget }
       {}
     
-    inline string getName() { return teamName; } 
+    inline string getName() const { return teamName; } 
 
     inline void addMember(string member) {
       teamMembers.push_back(member);
       return;
     }
 
-    inline int getMemberCount() { return teamMembers.size(); }
+    inline int getMemberCount() const { return teamMembers.size(); }
     
-    inline double getBudget() { return teamBudget; }
+    inline double getBudget() const { return teamBudget; }
 
     inline void setBudget(double newBudget) { 
       teamBudget = newBudget;

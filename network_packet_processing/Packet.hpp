@@ -15,7 +15,7 @@ private:
 
 public:
   Packet(PacketType pType, Protocol prtcl);
-  string getProtocolName();
+  string getProtocolName() const;
   void validatePacket();
   bool isError();
   void displayInfo();

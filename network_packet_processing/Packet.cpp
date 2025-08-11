@@ -39,7 +39,7 @@ string Packet::getStatusName() const {
   }
 }
 
-string Packet::getProtocolName() {
+string Packet::getProtocolName() const {
   switch (protocol) {
     case (Protocol::TCP):
       return "TCP";

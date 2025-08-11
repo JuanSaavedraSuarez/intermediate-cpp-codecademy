@@ -18,7 +18,7 @@ namespace Sales {
       , teamLocation { location }
       {}
 
-    inline string getTeamName() { return teamName ; }
+    inline string getTeamName() const { return teamName ; }
 
     inline std::vector<string> getTeamMembers() { return teamMembers; }
 
@@ -27,7 +27,7 @@ namespace Sales {
       return;
     }
 
-    inline string getLocation() { return teamLocation; }
+    inline string getLocation() const { return teamLocation; }
 
     inline void setLocation(string& location) {
       teamLocation = location;

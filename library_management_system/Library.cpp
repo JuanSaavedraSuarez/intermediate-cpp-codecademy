@@ -44,7 +44,7 @@ void Library::listBooks() {
     }
 }
 
-int Library::getTotalBorrowedBooks() {
+int Library::getTotalBorrowedBooks() const {
     return totalBorrowedBooks;
 }
 

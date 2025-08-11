@@ -16,9 +16,9 @@ public:
   virtual void attack();
   virtual void displayInfo();
   
-  inline string getName() { return name; }
-  inline int getHealth() { return health; }
-  inline int getPower() {return power; }
+  inline string getName() const { return name; }
+  inline int getHealth() const { return health; }
+  inline int getPower() const {return power; }
 };
 
 #endif 
